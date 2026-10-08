@@ -22,8 +22,9 @@ This project demonstrates how an LLM can request tools, execute them through a L
 - LLM APIs
 
 ## Agent Workflow
+The following diagram illustrates the ReAct agent execution flow.
 
-The agent follows this workflow:
+![LangGraph ReAct Agent Workflow](flow.png)
 
 1. The user submits a question.
 2. The LLM decides whether to request a tool.
