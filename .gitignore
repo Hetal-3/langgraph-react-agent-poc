@@ -1,0 +1,149 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Poetry
+# Keep poetry.lock committed for reproducible installs
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# LangGraph / LangChain local data
+.langgraph_api/
+langgraph.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Checkpoints / local persistence
+checkpoints/
+data/
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Linting / type checking
+.mypy_cache/
+.ruff_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local secrets / API keys
+secrets.json
+credentials.json# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Poetry
+# Keep poetry.lock committed for reproducible installs
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# LangGraph / LangChain local data
+.langgraph_api/
+langgraph.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Checkpoints / local persistence
+checkpoints/
+data/
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Linting / type checking
+.mypy_cache/
+.ruff_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local secrets / API keys
+secrets.json
+credentials.json
